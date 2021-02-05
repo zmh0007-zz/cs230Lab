@@ -7,6 +7,7 @@
         of lightsaber blades and hilts. order yours today!</p>
 
     </div>
+
     <div class="row">
         <div class="column">
             <div class="card">
@@ -55,5 +56,13 @@
 
             </div>
         </div>
+
+        <div class="footer">
+    <footer>Copyright Lightsabers Inc</footer>
+
+    </div>
+
+
+
     </div>
 </main>
