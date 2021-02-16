@@ -11,7 +11,7 @@ require "includes/header.php"
                 <div class="signup-form"></div>
                 <form action="includes/signup-helper.php" method="post">
 
-                    <h1 class="h3 mb-3 font-weight-normal"> Please Sign Up </h1>
+                    <h1> Please Sign Up </h1>
                     <p class="hint-text">Create Your Account!</p>
                     <div class="form-group">
                         <div class="row">
