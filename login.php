@@ -56,7 +56,7 @@ require "includes/header.php";
                             <input type="password" id="inputPassword" class="form-control" name="pwd"
                                 placeholder="Password" required>
 
-                            <button class="btn btn-lg btn-primary btn-block" name="signin-submit" type="submit">Sign
+                            <button class="btn btn-lg btn-primary btn-block" name="login-submit" type="submit">Sign
                                 in!</button>
                             <p class="mt-5 mb-3 text-muted">&copy; 2020-9999</p>
 

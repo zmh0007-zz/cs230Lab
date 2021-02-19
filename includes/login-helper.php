@@ -36,7 +36,7 @@ if(isset($_POST['login-submit'])) {
 
         else {
         
-            $pass_check = password_verify($passw, $data('password'));
+            $pass_check = password_verify($passw, $data['password']);
 
             if($pass_check == true) {
 
