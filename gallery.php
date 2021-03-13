@@ -9,7 +9,7 @@ require 'includes/header.php';
     <div class="gallery-container">
         <?php
 include_once 'includes/dbhandler.php';
-$sql = "SELECT * FROM gallery ORDER BY uplaod_date DESC";
+$sql = "SELECT * FROM gallery ORDER BY upload_date DESC";
 $query = mysqli_query($conn,$sql);
 
 while($row = mysqli_fetch_assoc($query)) {
@@ -25,6 +25,4 @@ while($row = mysqli_fetch_assoc($query)) {
 }
     ?>
     </div>
-    
-
 </main>
