@@ -95,7 +95,6 @@ $(document).ready(function() {
         $('.star-rev').css('color', 'grey');
     }
 
-
     //Used to interchangeably send GET requests for review display data. 
     function xhr_getter(prefix, element) {
         var xhttp = new XMLHttpRequest();

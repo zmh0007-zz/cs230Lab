@@ -2,7 +2,7 @@
 require_once 'dbhandler.php';
 date_default_timezone_set('UTC');
 
-if (isset($_POST['review-submit'])){
+if (isset($_POST['review-submit'])) {
     session_start();
     $uname = $_SESSION['uname'];
     $title = $_POST['review_title'];
@@ -13,7 +13,6 @@ if (isset($_POST['review-submit'])){
 
     $sql = "INSERT INTO reviews (itemid, uname, title, reviewtext, revdate, ratingnum, status) VALUES('$item_id', '$uname', '$title', '$review', '$date', '$rating', 1);";
     mysqli_query($conn, $sql);
-
     header("Location: ../review.php?id=$item_id");    
     exit();
 
