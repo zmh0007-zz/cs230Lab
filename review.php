@@ -33,10 +33,11 @@ require 'includes/review-helper.php';
 
 
 
-</div>
+        </div>
 
-<div class="form-group">
-<button class="btn btn-outline danger" type ="submit" name="review-submit" id="review-submit" style="width: 100%">Review</button>
+        <div class="form-group">
+            <button class="btn btn-outline danger" type="submit" name="review-submit" id="review-submit"
+                style="width: 100%">Review</button>
 
             </form>
 
