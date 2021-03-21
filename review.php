@@ -46,10 +46,6 @@ require 'includes/review-helper.php';
 
     </div>
 
-
-
-
-
     <span id="review_list"></span>
 </main>
 
