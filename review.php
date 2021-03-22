@@ -29,7 +29,7 @@ require 'includes/review-helper.php';
                 <textarea name="review" id="review-text" cols="50" rows="3" placeholder="Enter a comment..."></textarea>
 
                 <input type="hidden" name="rating" id="rating">
-                <input type="hidden" name=item id" value="<?php echo $_GET['id'];?>">
+                <input type="hidden" name=item id" value="<?php echo $_GET['id']?>">
 
 
 
