@@ -14,7 +14,7 @@ if (!$conn) {
 
 $item = $_GET['id'];
 
-$sql = "SELECT FROM reviews WHERE itemid='$item'";
+$sql = "SELECT * FROM reviews WHERE itemid='$item'";
 
 $result = mysqli_query($conn, $sql);
 
@@ -23,7 +23,7 @@ if(mysqli_num_rows($result) > 0) {
         $uname = $row['uname'];
         $propic = "SELECT profpic FROM profile WHERE uname='$uname';";
         $res = mysqli_query($conn,$propic);
-        $picpath = mysqli_fetch_assoc($res)['profpic'];
+        $picpath = mysqli_fetch_assoc($res);
 
         echo '
        <div class="card-mx-auto" style="width: 30%; padding: 5px; margin-bottom: 10px;">
