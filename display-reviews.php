@@ -21,7 +21,7 @@ $result = mysqli_query($conn, $sql);
 if(mysqli_num_rows($result) > 0) {
     while ($row = mysqli_fetch_assoc($result)) {
         $uname = $row['uname'];
-        $propic = "SELECT profpic FROM profile WHERE uname='$uname';";
+        $propic = "SELECT profpic FROM profiles WHERE uname='$uname';";
         $res = mysqli_query($conn,$propic);
         $picpath = mysqli_fetch_assoc($res);
 
