@@ -3,10 +3,10 @@ require "includes/header.php"
 ?>
 
 <main>
-    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="css/login.css">
 
     <div class="bg-cover">
-        <div class="h-100 container center-me">
+        <div class="h-40 center-me">
             <div class="my-auto">
                 <div class="signup-form"></div>
                 <form action="includes/signup-helper.php" method="post">
@@ -38,7 +38,7 @@ require "includes/header.php"
                         required>
 
                     <button class="btn btn-lg btn-primary btn-block" name="signup-submit" type="submit">Sign Up</button>
-                    <p class="mt-5 mb-3 text-muted">&copy; 2020-9999</p>
+                    <p class="mt-5 mb-3 text-white">&copy; 2020-9999</p>
 
                 </form>
 
