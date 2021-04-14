@@ -16,7 +16,7 @@ color: grey;
 
 img {
 
-max-width: 220px;
+width: 220px;
 height: 220px;
 margin-top: 10px;
 }
@@ -28,6 +28,7 @@ display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 justify-content: center;
+
 }
 
 .card {
@@ -42,10 +43,10 @@ padding: 5px;
 
 .gallery-container a {
 
-background-color: black;
 background-position: center;
 background-size: cover;
 border-radius: 10px;
+border: solid 3px black;
 
 }
 

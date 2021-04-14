@@ -34,12 +34,12 @@ if(isset($_SESSION['uid'])) {
                 <div class="form-group">
                     <img src="images/l1.jpg" alt="profile pic" onclick="triggered();" id="prof-display">
 
-                    <input type="text" name="title" class="form-control" placeholder="title">
+                    <input type="text" name="title" class="form-control" placeholder="Lightsaber Name">
                     <input type="file" name="gallery-image" id="gallery-image" onchange="preview(this)" class="form-control"
                         style="display: none;">
                 </div>
                 <div class="form-group">
-                    <textarea name="descript" id="bio" cols="30" rows="10" placeholder="Description"
+                    <textarea name="descript" id="bio" cols="30" rows="10" placeholder="Description of Lightsaber"
                         style="text-align: center;"></textarea>
                 </div>
                 <div class="form-group">

@@ -42,7 +42,7 @@ require 'includes/header.php';
             <div class="card">
                 <img src="images/Anakin.webp">
                 <div class="container">
-                    <h2 style= "text-decoration: underline 2px black">Website Manager</h2>
+                    <h2 style= "text-decoration: underline 2px black">Website Manager, Not Jedi Master</h2>
                     <p>Anakin Skywalker</p>
                     <p style= "font-size: 12px">Email: MasterSkywalker@lightsabers.com</p>
                 </div>
@@ -63,7 +63,7 @@ require 'includes/header.php';
         </div>
 
         <div class="footer">
-    <footer>Copyright Lightsabers Inc</footer>
+    <footer>Copyright Lightsabers.com</footer>
 
     </div>
 
