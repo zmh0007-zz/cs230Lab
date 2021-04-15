@@ -2,8 +2,10 @@
 require 'includes/header.php';
 ?>
 
+<title>Lightsabers.com | Lightsaber Gallery</title>  
+
 <main>
-    <title>Lightsabers.com | Lightsaber Gallery</title>   
+     
     <link rel="stylesheet" href="css/gallery.css">
     <h1>Gallery</h1>
     <div class="gallery-container">

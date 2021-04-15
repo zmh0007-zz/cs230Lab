@@ -2,11 +2,12 @@
 require 'includes/header.php';
 ?>
 
+<title>Lightsabers.com | About</title>
 
 <main>
 
-    <title>Lightsabers.com | About</title>
     <link rel="stylesheet" href="css/about.css">
+   
 
     <div class="about" >
         <h1 style= "font-size: 48px" >Lightsabers - About Us</h1>

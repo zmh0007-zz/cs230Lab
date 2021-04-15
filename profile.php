@@ -3,8 +3,10 @@ require 'includes/header.php';
 require 'includes/dbhandler.php';
 ?>
 
-<main>
 <title>Lightsabers.com | Profile</title>
+
+<main>
+
     <link rel="stylesheet" href="css/profile.css">
 
     <script>

@@ -2,8 +2,11 @@
 require "includes/header.php"
 ?>
 
-<main>
 <title>Lightsabers.com | Sign Up</title>
+
+<main>
+
+
     <link rel="stylesheet" href="css/login.css">
 
     <div class="bg-cover">
