@@ -4,6 +4,8 @@ require 'includes/header.php';
 
 
 <main>
+
+    <title>Lightsabers.com | About</title>
     <link rel="stylesheet" href="css/about.css">
 
     <div class="about" >

@@ -4,6 +4,7 @@ require 'includes/dbhandler.php';
 ?>
 
 <main>
+<title>Lightsabers.com | Lightsaber Upload</title>
     <link rel="stylesheet" href="css/profile.css">
 
     <script>
