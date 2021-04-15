@@ -47,7 +47,7 @@ require "includes/header.php";
                 <form class="form-signin" action="includes/login-helper.php" method="post">
 
                     <h2>Login</h1>
-                        <p class="hint-text">Please Login!</p>
+                        <p class="hint-text">Login Padawan!</p>
 
                         <div class="form-group">
 
