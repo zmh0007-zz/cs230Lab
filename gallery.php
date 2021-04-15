@@ -2,14 +2,18 @@
 require 'includes/header.php';
 ?>
 
-<title>Lightsabers.com | Lightsaber Gallery</title>  
+<title>Lightsabers.com | Lightsaber Gallery</title>
 
 <main>
-     
+
     <link rel="stylesheet" href="css/gallery.css">
-    <h1>Gallery</h1>
-    <div class="gallery-container">
-        <?php
+
+    <div class="bg-cover">
+
+        <h1>Lightsaber Gallery</h1>
+
+        <div class="gallery-container">
+            <?php
 include_once 'includes/dbhandler.php';
 $sql = "SELECT * FROM gallery ORDER BY upload_date DESC";
 $query = mysqli_query($conn,$sql);
@@ -26,5 +30,8 @@ while($row = mysqli_fetch_assoc($query)) {
 
 }
     ?>
+        </div>
+
     </div>
+
 </main>
